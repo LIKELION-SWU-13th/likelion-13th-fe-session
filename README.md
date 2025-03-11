@@ -58,7 +58,7 @@
      ```
 3. **Pull Request**
    - GitHub에서 fork한 자신의 레포지토리 페이지로 이동
-   - "Pull requests" 탭 클릭 → "New pull request" 버튼 클릭
+   - "Compare & pull request" 버튼 클릭
      - base repository: LIKELION-SWU-13th/likelion-13th-fe-session
      - base branch: {본인이름}
      - head repository: {본인계정}/likelion-13th-fe-session
