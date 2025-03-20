@@ -1,0 +1,13 @@
+{
+  "formatVersion": 2,
+  "type": "Histogram",
+  "studioVersion": "2023.1.1.26",
+  "kotlinVersion": "231-1.9.10-release-459-AS9392.1.2311.11076708",
+  "uptime": 4909237,
+  "reportTime": 1732843510785,
+  "sessionId": "de3c05dd-1b28-4ae0-a996-c316fec91e2e",
+  "threadDumpPath": "C:\\Users\\hi020\\AppData\\Local\\Google\\AndroidStudio2023.1\\log\\threadDumps-histogram-20241129-102508\\threadDump.txt",
+  "histogramPath": "C:\\Users\\hi020\\AppData\\Local\\Google\\AndroidStudio2023.1\\log\\threadDumps-histogram-20241129-102508\\histogram.txt",
+  "reason": "LowMemory",
+  "description": "LowMemoryWatcher"
+}
