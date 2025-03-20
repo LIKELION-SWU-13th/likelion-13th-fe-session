@@ -53,7 +53,7 @@
 2. **변경 사항 Commit & Push**
      ```
      git add .
-     git commit -m "[1주차] 실습 과제 제출"
+     git commit -m "[1주차] 김멋사 과제 제출"
      git push origin {본인이름}
      ```
 3. **Pull Request**
