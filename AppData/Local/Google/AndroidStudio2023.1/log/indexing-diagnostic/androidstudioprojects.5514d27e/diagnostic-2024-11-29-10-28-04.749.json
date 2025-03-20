@@ -1,0 +1,167 @@
+{
+  "appInfo" : {
+    "build" : "231.9392.1.2311.11076708",
+    "buildDate" : "2023-11-09T16:10:22.141Z[UTC]",
+    "productCode" : "AI",
+    "generated" : "2024-11-29T01:28:04.7495483Z",
+    "os" : "Windows 10.0",
+    "runtime" : "JetBrains s.r.o. 17.0.7 17.0.7+0-b2043.56-10550314"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 7,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "projectIndexingHistory" : {
+    "projectName" : "citymap",
+    "times" : {
+      "indexingReason" : "Merged changes in: \"Module 'citymap' (AndroidStudioProjects)\", \"Module 'citymap.app' (app)\", \"Module 'citymap.app.main' (debug, main, out)\", \"Module 'citymap.app.unitTest' (test)\", \"Module 'citymap.app.androidTest' (androidTest)\", \"Android SDK Android API 34, extension level 7 Platform C:/Users/hi020/AppData/Local/Android/Sdk\", \"JDK jbr-17 C:/Program Files/Android/Android Studio/jbr\", \"Library Gradle: androidx.appcompat:appcompat:1.7.0@aar (#3 class roots, #1 source roots)\", \"Library Gradle: androidx.activity:activity:1.8.0@aar (#3 class roots, #1 source roots)\", \"Library Gradle: androidx.core:core:1.13.0@aar (#3 class roots, #1 source roots)\" and 90 iterators more with changes in: \"JDK jbr-17 C:/Program Files/Android/Android Studio/jbr\"",
+      "scanningType" : "REFRESH",
+      "totalUpdatingTime" : 3434000,
+      "indexingTime" : 3253800,
+      "contentLoadingVisibleTime" : 395541,
+      "creatingIteratorsTime" : 0,
+      "scanFilesTime" : 0,
+      "pushPropertiesTime" : 0,
+      "indexExtensionsTime" : 0,
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 8928,
+      "updatingStart" : "2024-11-29T01:28:04.6619297Z",
+      "updatingEnd" : "2024-11-29T01:28:04.6654647Z",
+      "totalSuspendedTime" : 0,
+      "wasInterrupted" : false
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 65
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "JAVA",
+      "partOfTotalProcessingTime" : {
+        "part" : 16481000,
+        "total" : 16481000
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2325700,
+        "total" : 2325700
+      },
+      "totalNumberOfFiles" : 65,
+      "totalFilesSize" : 92471,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 92471,
+        "totalTime" : 16481000
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Module 'citymap' (AndroidStudioProjects)",
+        "numberOfFiles" : 62,
+        "totalFilesSize" : 91007,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 15990600,
+          "total" : 16481000
+        }
+      }, {
+        "providerName" : "Module 'citymap.app.androidTest' (androidTest)",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 752,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 179800,
+          "total" : 16481000
+        }
+      }, {
+        "providerName" : "Module 'citymap.app.unitTest' (test)",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 380,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 176000,
+          "total" : 16481000
+        }
+      }, {
+        "providerName" : "Module 'citymap.app.main' (debug, main, out)",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 332,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 134600,
+          "total" : 16481000
+        }
+      } ]
+    } ],
+    "totalStatsPerIndexer" : [ ],
+    "scanningStatistics" : [ {
+      "providerName" : "Refreshed files",
+      "numberOfScannedFiles" : 0,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 0,
+      "scanningTime" : 13400,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ "Not collected for refresh" ]
+    } ],
+    "fileProviderStatistics" : [ {
+      "providerName" : "Module 'citymap' (AndroidStudioProjects)",
+      "totalNumberOfIndexedFiles" : 62,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 2719595,
+      "contentLoadingVisibleTime" : 380269,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 8656
+    }, {
+      "providerName" : "Module 'citymap.app.androidTest' (androidTest)",
+      "totalNumberOfIndexedFiles" : 1,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 30579,
+      "contentLoadingVisibleTime" : 5527,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 85
+    }, {
+      "providerName" : "Module 'citymap.app.unitTest' (test)",
+      "totalNumberOfIndexedFiles" : 1,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 29933,
+      "contentLoadingVisibleTime" : 4830,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 102
+    }, {
+      "providerName" : "Module 'citymap.app.main' (debug, main, out)",
+      "totalNumberOfIndexedFiles" : 1,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 22892,
+      "contentLoadingVisibleTime" : 4915,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 85
+    }, {
+      "providerName" : "Refreshed files",
+      "totalNumberOfIndexedFiles" : 0,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 0,
+      "contentLoadingVisibleTime" : 0,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 0
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 0.0
+  }
+}

@@ -1,0 +1,932 @@
+0	0
+휴대폰과 연결~
+환경 설정~
+확인~
+화상 키보드~
+화면 바로가기 만들기 2가지 방법~
+홈~
+허브~
+한컴 자동 업데이트 2020~
+한워드 2020~
+한쇼 2020~
+한셀 2020~
+한글 2020~
+한pdf 2020~
+피드백 허브~
+플레이어~
+프롬프트~
+포함된 windows defender 방화벽~
+포털~
+편집기~
+팩스 및 스캔~
+패드~
+파일 탐색기~
+팁~
+탐색기~
+키보드~
+콘솔 컴패니언~
+컴퓨터 관리~
+컴패니언~
+캡처 및 스케치~
+캡처 도구~
+카카오톡~
+카카오톡 제거~
+카메라~
+최적화~
+초기자~
+참조 설명서~
+진단~
+지원~
+지도~
+조각 모음 및 최적화~
+제어판~
+제어 센터~
+제거~
+정보~
+정리~
+작업 스케줄러~
+작업 관리자~
+자동 업데이트 2020~
+일정~
+인텔® 그래픽 제어 센터~
+이벤트 뷰어~
+음성 녹음기~
+원본(64비트)~
+원격 데스크톱 연결~
+워드패드~
+요소 서비스~
+연결~
+여자대학교 e-class system~
+엣지 바탕화면 바로가기 만들기 2가지 방법~
+업데이트 확인~
+업데이트 2020~
+실행~
+시스템 정보~
+시스템 구성~
+시계~
+스티커 메모~
+스케치~
+스케줄러~
+스캔~
+센터~
+성능 모니터~
+설정~
+설명서~
+서울여자대학교 e-class system~
+서비스~
+사진~
+빠른 지원~
+비트)~
+뷰어~
+복구 드라이브~
+보안이 포함된 windows defender 방화벽~
+보안~
+보기~
+백업~
+방화벽~
+방법~
+방문~
+바탕화면 바로가기 만들기 2가지 방법~
+바로가기 만들기 2가지 방법~
+및 최적화~
+및 스케치~
+및 스캔~
+미디어 플레이어~
+문자표~
+모음 및 최적화~
+모니터~
+명령 프롬프트~
+메일~
+메모장~
+메모리 진단~
+메모~
+만들기 2가지 방법~
+리소스 모니터~
+레코더~
+레지스트리 편집기~
+디스크 정리~
+드라이브~
+드라이브 조각 모음 및 최적화~
+돋보기~
+도움말~
+도움말 보기~
+도구~
+데이터 원본(64비트)~
+데스크톱 연결~
+대학교 e-class system~
+단계 레코더~
+다운로드 홈~
+녹음기~
+내레이터~
+내 pc~
+날씨~
+기자~
+그림판~
+그림판 3d~
+그래픽 제어 센터~
+구성~
+구성 요소 서비스~
+관리자~
+관리~
+관리 도구~
+고급 보안이 포함된 windows defender 방화벽~
+계산기~
+개발자 홈~
+가지 방법~
+가기 만들기 2가지 방법~
+هدفثق~
+سنغ~
+ылн~
+zotero~
+zooom~
+zoon~
+zoom~
+xbox 콘솔 컴패니언~
+xampp~
+xampp?utm_source=bitnami&utm_medium=installer&utm_campaign=xampp%2binstaller~
+xampp htdocs folder~
+x86_x64 cross tools command prompt for vs 2022~
+x86_x64 cross tools command prompt for vs 2019~
+x86)~
+x86 native tools command prompt for vs 2022~
+x86 native tools command prompt for vs 2019~
+x86 cross tools command prompt for vs 2022~
+x86 cross tools command prompt for vs 2019~
+x64_x86 cross tools command prompt for vs 2022~
+x64_x86 cross tools command prompt for vs 2019~
+x64)~
+x64 native tools command prompt for vs 2022~
+x64 native tools command prompt for vs 2019~
+x64 cross tools command prompt for vs 2022~
+x64 cross tools command prompt for vs 2019~
+x ultra~
+www.knime~
+www.easeus.co~
+wow)~
+wordpad~
+wmv~
+wmplayer~
+wizard~
+wizard 제거~
+with unity~
+windowsstoreappdevcentertoolsdocumentation~
+windowsstoreappdevcentersamples~
+windowsstoreappdevcenterlearn~
+windowsmedia~
+windows 팩스 및 스캔~
+windows 보안~
+windows 백업~
+windows 메모리 진단~
+windows 관리 도구~
+windows store~
+windows store apps~
+windows speech recognition~
+windows software development kit~
+windows shop~
+windows shell~
+windows powershell~
+windows powershell ise~
+windows powershell ise (x86)~
+windows powershell (x86)~
+windows power shell~
+windows player~
+windows mw~
+windows mi~
+windows media player~
+windows meda~
+windows mea~
+windows defender 방화벽~
+windows apps~
+windows app store~
+windows app cert kit~
+windows 10~
+window store~
+window power~
+window player~
+window media player~
+windos store~
+whatsnew~
+wf~
+wfs~
+web~
+website~
+webdlg~
+web browser~
+vscode~
+vs code~
+vs 2022~
+vs 2019~
+vp~
+vius~
+visy~
+visula~
+visual studio installer~
+visual studio code~
+visual studio 2022~
+visual code~
+visuak~
+visau~
+video player:wux:video player~
+video chat:wux:video chat~
+video call:wux:video call~
+verifier help~
+verifier (x64)~
+verifier (wow)~
+v1.0~
+update~
+update knime analytics platform~
+untiy~
+unter~
+uniy~
+unity~
+unitybugreporter~
+unity release notes~
+uninstall~
+uninstall zoom~
+uninstall node.js~
+unins000~
+ultra~
+uie~
+transaction~
+tools for windows store apps~
+tools for node.js~
+tools for desktop apps~
+tools command prompt for vs 2022~
+tools command prompt for vs 2019~
+to update knime analytics platform~
+to do~
+thunderbolt™ 제어 센터~
+the web~
+text~
+taskschd~
+taskmgr~
+system~
+sype~
+sypder~
+sykpe~
+sublime_text~
+sublime text~
+studio~
+studio64~
+studio installer~
+studio code~
+studio 2022~
+sttore~
+stsess~
+strore~
+stroe~
+stpre~
+stotr~
+stote~
+storw~
+storte~
+storre~
+store~
+storew~
+stores~
+storer~
+storee~
+store apps~
+stopre~
+stoore~
+stoer~
+stire~
+stcli~
+start guide~
+sstore~
+sskype~
+srore~
+sqlite home page~
+spype~
+spyder~
+spyder settings~
+spider~
+speech recognition~
+sources (32-bit)~
+sotre~
+sote~
+sore~
+solitaire & casual games~
+software development kit~
+snipping~
+snippingtool~
+snap~
+slype~
+skzpe~
+skyype~
+skyupe~
+skyt~
+skypwe~
+skypte~
+skypre~
+skyppe~
+skypoe~
+skype~
+skypew~
+skypeskype~
+skyper~
+skypepe~
+skypek~
+skypee~
+skype4~
+skype'~
+skyp[e~
+skyope~
+skyoe~
+skyle~
+skyk~
+skyepe~
+skydrive:wux:skydrive~
+skybe~
+sky[pe~
+sky[e~
+sky'~
+skuype~
+skupe~
+skty~
+sks~
+skpye~
+skpe~
+skl~
+skkype~
+skj~
+skipe~
+skhype~
+skey~
+skepe~
+sjype~
+sjyoe~
+shop~
+setup~
+setting~
+settings~
+services~
+security v1.0~
+sdk~
+sc~
+scype~
+sapisvr~
+samples for windows store apps~
+samples for desktop apps~
+sakype~
+safe transaction~
+s'k'y~
+run~
+rip~
+reset spyder settings~
+report a problem with unity~
+remote~
+releasenotes~
+release notes~
+regedit~
+recoverydrive~
+recovery wizard~
+recovery wizard 제거~
+record~
+recognition~
+realtek audio console~
+reality 포털~
+quickstart~
+quickassist~
+quick start guide~
+questions)~
+python~
+pythonw~
+python:wux:python~
+python 3.9 module docs (64-bit)~
+python 3.9 manuals (64-bit)~
+python 3.12 module docs (64-bit)~
+python 3.12 manuals (64-bit)~
+python 3.12 64-bit)~
+python 3.12 (64-bit)~
+pwoershell~
+pwershell~
+psr~
+prompt~
+prompt for vs 2022~
+prompt for vs 2019~
+problem with unity~
+powrshell~
+powreshell~
+poweshell~
+powersj~
+powershll~
+powersher~
+powershell~
+powershelll~
+powershell_ise~
+powershell.exe~
+powershell prompt~
+powershell ise~
+powershell ise (x86)~
+powershell for vs 2022~
+powershell for vs 2019~
+powershell admin~
+powershell (x86)~
+powersheell~
+powersell~
+powersehll~
+powerhsell~
+powerhell~
+power shell~
+postmn~
+postman~
+poewrshell~
+poershell~
+player~
+play store~
+play cd:wux:play cd~
+platform~
+platform on the web~
+perfmon~
+pdf 2020~
+pc~
+panel~
+paint~
+page~
+package manager~
+outlook (new)~
+osk~
+open skype~
+open one drive~
+open internet explorer~
+open edge~
+onter~
+online security v1.0~
+oner~
+onenote for windows 10~
+onedrive~
+onedriver~
+onedrie~
+onedrice~
+onedive~
+onedirve~
+onede~
+one drive app~
+one drie~
+one dirve~
+ondrive~
+on the web~
+omter~
+ointer~
+office)~
+odbcad32~
+odbc32~
+odbc 데이터 원본(64비트)~
+odbc data sources (32-bit)~
+obdc~
+nvm~
+nprotect online security v1.0~
+notes~
+notepad~
+notebook~
+notebook (myenv)~
+nos_launcher~
+node~
+nodejs~
+node.js~
+node.js website~
+node.js documentation~
+node.js command prompt~
+new)~
+navigator~
+native tools command prompt for vs 2022~
+native tools command prompt for vs 2019~
+narrator~
+my~
+myenv)~
+music player:wux:music player~
+mstsc~
+mspaint~
+msinfo32~
+msiexec~
+msedge~
+msconfig~
+ms store~
+ms edge~
+movie player:wux:movie player~
+module docs (64-bit)~
+mixed reality 포털~
+mission control~
+mirco~
+mircosoft~
+mip~
+micrsoft store~
+microsoftstore~
+microsoftedge~
+microsoft to do~
+microsoft store~
+microsoft sotre~
+microsoft onedrive~
+microsoft one drive~
+microsoft media:wux:microsoft media~
+microsoft inter~
+microsoft explorer~
+microsoft edge~
+microsoft cloud~
+microsoft apps:wux:microsoft apps~
+microsoft 365 (office)~
+microsft store~
+microsft edge~
+microsfot store~
+memo~
+meida~
+meia~
+medu~
+medo~
+medis~
+medie~
+mediaplayer~
+mediaa~
+media player~
+medai~
+mdsched~
+mdia~
+math input panel~
+market~
+manuals (64-bit)~
+manager~
+mail~
+magnify~
+magicline4nx~
+magicline4nx_uninstall~
+loja~
+logseq~
+learning-hub~
+learning hub~
+ksype~
+ksky~
+knime~
+knime forum~
+knime analytics platform~
+knime analytics platform on the web~
+kit~
+kako~
+kakaotalk~
+jupyter notebook~
+jupyter notebook (myenv)~
+jupter~
+jupiter~
+js~
+js website~
+js documentation~
+js command prompt~
+jmc~
+java~
+javacpl~
+java.com 방문~
+java 정보~
+java 구성~
+java mission control~
+java developers - 2022-12~
+ixplore~
+ixl~
+iunter~
+iue~
+itnernet~
+iternet~
+ise~
+ise (x86)~
+iscsicpl~
+iscsi 초기자~
+ionter~
+inyter~
+inyrt~
+inyernet~
+intyernet~
+intwr~
+intwer~
+intternet~
+intrt~
+intrr~
+intrnet~
+intrernet~
+intrenet~
+intra~
+intnt~
+intnet~
+intnert~
+intnernet~
+intneret~
+intin~
+intger~
+intewr~
+intetr~
+intetnet~
+intertnet~
+interrnet~
+internwt~
+interntet~
+internter~
+internrt~
+internnet~
+internmet~
+interneyt~
+internext~
+internew~
+internety~
+internett~
+internetr~
+internetn~
+internetexplorer~
+internet'~
+internet exporer~
+internet expolorer~
+internet exployer~
+internet explorr~
+internet explorer~
+internet explorere~
+internet explorer 9~
+internet explorer 11~
+internet exploreer~
+internet exploerer~
+internet exo~
+internet exlorer~
+internet eplorer~
+internet browser~
+internest~
+internert~
+interner explorer~
+internent~
+interneet~
+internate~
+internal~
+intermet~
+interin~
+interet~
+interer~
+interent explorer~
+interenet explorer~
+interbet~
+inter]~
+inter4~
+inter'~
+inter net~
+intent~
+intenret~
+intenet explorer~
+intener~
+inteernet~
+int4~
+int'~
+int exp~
+installer~
+install additional tools for node.js~
+inrter~
+inrer~
+input panel~
+innternet~
+inm~
+ininter~
+ingter~
+inetrnet~
+inetner~
+ineternet~
+inert~
+inernet explorer~
+index~
+inbter~
+in ter~
+imternet~
+imnter~
+ijn~
+iinternet~
+iie~
+iexpore~
+iexplre~
+iexplore~
+iexplorer.exe~
+iexplore.exe~
+iexploer~
+ier~
+ieplore~
+iee~
+ie11~
+ie.exe~
+ie 11~
+idle (python 3.12 64-bit)~
+ide for java developers - 2022-12~
+ibter~
+ibnter~
+i.e~
+i nter~
+i e~
+hwp~
+hword~
+hub~
+htdocs~
+htdocs folder~
+hshow~
+hpdf~
+how to update knime analytics platform~
+home page~
+hh~
+help~
+hcell~
+hancomstudio~
+gui~
+guide~
+google~
+githubdesktop~
+github desktop~
+gitbash~
+git-gui~
+git-cmd~
+git-bash~
+git release notes~
+git gui~
+git faqs (frequently asked questions)~
+git cmd~
+git bash~
+git bash (chartdete)~
+games~
+game store:wux:game store~
+game bar~
+frequently asked questions)~
+free games:wux:free games~
+forum~
+for xampp~
+for windows store apps~
+for windows 10~
+for vs 2022~
+for vs 2019~
+for node.js~
+for java developers - 2022-12~
+for desktop apps~
+folder~
+faq~
+faqs (frequently asked questions)~
+ezupdate~
+ezphoto~
+ezphoto3 vp~
+ex~
+expp~
+exporer~
+expolorer~
+exployer~
+explorr~
+explorer~
+explorerr~
+explorere~
+explorer 11~
+exploer~
+ex[~
+eventvwr~
+ether~
+ete~
+eplorer~
+entre~
+enternet~
+enternet explorer~
+ege~
+egde~
+edsge~
+edgr~
+edghe~
+edgge~
+edgfe~
+edge~
+edge.com~
+edge'~
+edege~
+eddge~
+eclipse~
+eclipse ide for java developers - 2022-12~
+easeus data recovery wizard~
+easeus data recovery wizard 제거~
+e-class system~
+e'd~
+dts:x ultra~
+dsn~
+drw~
+do~
+download apps:wux:download apps~
+documentation~
+documentation for windows store apps~
+documentation for desktop apps~
+docs~
+docs (64-bit)~
+dkype~
+dfrgui~
+devenv~
+development kit~
+developers - 2022-12~
+developer powershell for vs 2022~
+developer powershell for vs 2019~
+developer command prompt for vs 2022~
+developer command prompt for vs 2019~
+desktop~
+desktopdevcentertoolsdocumentation~
+desktopdevcentersamples~
+desktopdevcenterlearn~
+desktop apps~
+defender 방화벽~
+debuggable package manager~
+data sources (32-bit)~
+data recovery wizard~
+data recovery wizard 제거~
+cross tools command prompt for vs 2022~
+cross tools command prompt for vs 2019~
+crome~
+cortana~
+copy dvd:wux:copy dvd~
+control~
+control panel~
+console~
+compmgmt~
+command prompt~
+command prompt for vs 2022~
+command prompt for vs 2019~
+comexp~
+com 방문~
+code~
+cmd~
+cloud:wux:cloud~
+cleanmgr~
+class system~
+chrome~
+chrome_proxy~
+chartdete)~
+charmap~
+cert kit~
+cd play~
+cd burner:wux:cd burner~
+casual games~
+capture~
+canvas~
+camera~
+calculator~
+cac~
+burn disc:wux:burn disc~
+burn cd:wux:burn cd~
+burn a cd:wux:burn a cd~
+browsers~
+browser:wux:browser~
+bitnami for xampp~
+bit)~
+bash~
+bash (chartdete)~
+bar~
+azure~
+audio player:wux:audio player~
+audio console~
+atore~
+asky~
+asked questions)~
+aps~
+appverif~
+apps~
+appstore~
+apps store~
+appp~
+application verifier help~
+application verifier (x64)~
+application verifier (wow)~
+appcertui~
+appa~
+app store:wux:app store~
+app sotre~
+app cert kit~
+api/~
+ap store~
+anroid~
+android studio~
+androdi~
+andriod~
+andorid~
+andoi~
+anconda~
+anan~
+analytics platform~
+analytics platform on the web~
+anaconda prompt~
+anaconda powershell prompt~
+anaconda navigator~
+all apps~
+akypw~
+akype~
+ahnrpt~
+ahnreport~
+ahnlab safe transaction~
+additional tools for node.js~
+a problem with unity~
+64비트)~
+64-bit)~
+3d~
+365 (office)~
+32-bit)~
+3.9 module docs (64-bit)~
+3.9 manuals (64-bit)~
+3.12 module docs (64-bit)~
+3.12 manuals (64-bit)~
+3.12 64-bit)~
+3.12 (64-bit)~
+2가지 방법~
+2022~
+2022-12~
+2020~
+2019~
+12~
+10~
+.0~
+ easeus 방문~

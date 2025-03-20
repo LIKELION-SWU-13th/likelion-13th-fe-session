@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HiAndroid</string>
+    <string name="strBtn1">전화걸기</string>
+    <string name="strBtn2">이메일 보내기</string>
+    <string name="strBtn3">알람 설정</string>
+    <string name="strBtn4">웹 검색</string>
+    <string name="strBtn5">네트워크 사용량</string>
+
+
+</resources>

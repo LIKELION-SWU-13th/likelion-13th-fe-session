@@ -1,0 +1,148 @@
+{
+  "appInfo" : {
+    "build" : "231.9392.1.2311.11076708",
+    "buildDate" : "2023-11-09T16:10:22.141Z[UTC]",
+    "productCode" : "AI",
+    "generated" : "2024-11-29T01:10:59.3713006Z",
+    "os" : "Windows 10.0",
+    "runtime" : "JetBrains s.r.o. 17.0.7 17.0.7+0-b2043.56-10550314"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 8,
+    "maxNumberOfIndexingThreads" : 7,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "projectIndexingHistory" : {
+    "projectName" : "week131",
+    "times" : {
+      "indexingReason" : "Merged changes in: \"Module 'week131.app' (app)\", \"Module 'week131.app.main' (main)\", \"Module 'week131.app.unitTest' (test)\", \"Module 'week131.app.androidTest' (androidTest)\", \"Android SDK Android API 34, extension level 7 Platform C:/Users/hi020/AppData/Local/Android/Sdk\", \"Library Gradle: androidx.appcompat:appcompat:1.7.0@aar (#3 class roots, #1 source roots)\", \"Library Gradle: androidx.activity:activity:1.8.0@aar (#3 class roots, #1 source roots)\", \"Library Gradle: androidx.core:core:1.13.0@aar (#3 class roots, #1 source roots)\", \"Library Gradle: androidx.annotation:annotation-experimental:1.4.0@aar (#3 class roots, #1 source roots)\", \"Library Gradle: androidx.lifecycle:lifecycle-runtime:2.6.2@aar (#3 class roots, #1 source roots)\" and 61 iterators more with changes in: \"JDK jbr-17 C:/Program Files/Android/Android Studio/jbr\"",
+      "scanningType" : "REFRESH",
+      "totalUpdatingTime" : 1982401,
+      "indexingTime" : 1491800,
+      "contentLoadingVisibleTime" : 91813,
+      "creatingIteratorsTime" : 0,
+      "scanFilesTime" : 0,
+      "pushPropertiesTime" : 0,
+      "indexExtensionsTime" : 0,
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 8171,
+      "updatingStart" : "2024-11-29T01:10:59.3676519Z",
+      "updatingEnd" : "2024-11-29T01:10:59.3693006Z",
+      "totalSuspendedTime" : 0,
+      "wasInterrupted" : false
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 3
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "JAVA",
+      "partOfTotalProcessingTime" : {
+        "part" : 1858601,
+        "total" : 1858601
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 152799,
+        "total" : 152799
+      },
+      "totalNumberOfFiles" : 3,
+      "totalFilesSize" : 1464,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 1464,
+        "totalTime" : 1858601
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Module 'week131.app.androidTest' (androidTest)",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 752,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 766300,
+          "total" : 1858601
+        }
+      }, {
+        "providerName" : "Module 'week131.app.main' (main)",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 332,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 642801,
+          "total" : 1858601
+        }
+      }, {
+        "providerName" : "Module 'week131.app.unitTest' (test)",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 380,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 449500,
+          "total" : 1858601
+        }
+      } ]
+    } ],
+    "totalStatsPerIndexer" : [ ],
+    "scanningStatistics" : [ {
+      "providerName" : "Refreshed files",
+      "numberOfScannedFiles" : 0,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 0,
+      "scanningTime" : 15800,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContent" : 0,
+      "roots" : [ "Not collected for refresh" ]
+    } ],
+    "fileProviderStatistics" : [ {
+      "providerName" : "Module 'week131.app.androidTest' (androidTest)",
+      "totalNumberOfIndexedFiles" : 1,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 460455,
+      "contentLoadingVisibleTime" : 28722,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 721
+    }, {
+      "providerName" : "Module 'week131.app.main' (main)",
+      "totalNumberOfIndexedFiles" : 1,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 386247,
+      "contentLoadingVisibleTime" : 36173,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 5828
+    }, {
+      "providerName" : "Module 'week131.app.unitTest' (test)",
+      "totalNumberOfIndexedFiles" : 1,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 270096,
+      "contentLoadingVisibleTime" : 26918,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 1622
+    }, {
+      "providerName" : "Refreshed files",
+      "totalNumberOfIndexedFiles" : 0,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalIndexingVisibleTime" : 0,
+      "contentLoadingVisibleTime" : 0,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "isAppliedAllValuesSeparately" : true,
+      "separateApplyingIndexesVisibleTime" : 0
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 0.0
+  }
+}

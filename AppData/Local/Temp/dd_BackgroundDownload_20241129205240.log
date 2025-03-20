@@ -1,0 +1,53 @@
+[3ffc:0001][2024-11-29T20:52:43] Creating new ExperimentationService
+[3ffc:0001][2024-11-29T20:52:43] Telemetry property VS.ABExp.Flights : lazytoolboxinit;fwlargebuffer;refactoring;spmoretempsbtn1;asloff;keybindgoldbarext;asynccsproj;vsfricheditor;completionapi;typeimportcompletion:30562486;vsttk:30514303;87ce9466:30775294;i4588376:30751670;fijh5155:30690136;8ig0d248:30783238;85ihc887:30842123;chat_aa_t:30915623;enablecontextinhistoryt:30979417
+[3ffc:0001][2024-11-29T20:52:45] UserActivityMonitor started.
+[3ffc:0001][2024-11-29T20:52:46] WmiValidatorResult: Success
+[3ffc:0001][2024-11-29T20:52:46] Telemetry property VS.SetupEngine.ActivityId : 35d528cd-2c49-4fb9-aea1-78c8dd72bb1d
+[3ffc:0001][2024-11-29T20:52:46] Telemetry property VS.SetupEngine.IsChildProcess : False
+[3ffc:0001][2024-11-29T20:52:46] Telemetry property VS.SetupEngine.IsNoCancel : True
+[3ffc:0001][2024-11-29T20:52:46] Telemetry property VS.SetupEngine.HasFunctionalWmiProvider : Success
+[3ffc:0001][2024-11-29T20:52:46] BEGIN: Background Download
+[3ffc:0001][2024-11-29T20:52:46] Running pre-check verification.
+[3ffc:0001][2024-11-29T20:52:46] Precheck: Failure in checking if the drive exists: 값은 null일 수 없습니다.
+매개 변수 이름: path
+[3ffc:0001][2024-11-29T20:52:46] BEGIN: Check for updates
+[3ffc:0007][2024-11-29T20:52:46] Telemetry property VS.SetupEngine.ChannelUpdateDisabled : False
+[3ffc:0006][2024-11-29T20:52:46] Authentication Environment variable setting value: null
+[3ffc:0006][2024-11-29T20:52:46] Authenticate: True
+[3ffc:001a][2024-11-29T20:52:47] Download requested: https://download.visualstudio.microsoft.com/download/pr/8497e528-d106-4143-95eb-3deb1b2f4851/b157f730d01b2d5243e1ae083d4471ee6df8885beacb8d9e75f6771bc275ca48/VisualStudio.16.Release.chman
+[3ffc:001b][2024-11-29T20:52:47] Download requested: https://download.visualstudio.microsoft.com/download/pr/655265af-cd2f-4919-97b2-3198ac560526/30f9cbe43604ccb85373cc6092584c7bfa3afee9b6754a31fe81292b18707408/VisualStudio.17.Release.chman
+[3ffc:001c][2024-11-29T20:52:47] Attempting download 'https://download.visualstudio.microsoft.com/download/pr/8497e528-d106-4143-95eb-3deb1b2f4851/b157f730d01b2d5243e1ae083d4471ee6df8885beacb8d9e75f6771bc275ca48/VisualStudio.16.Release.chman' using engine 'WebClient'
+[3ffc:001d][2024-11-29T20:52:47] Attempting download 'https://download.visualstudio.microsoft.com/download/pr/655265af-cd2f-4919-97b2-3198ac560526/30f9cbe43604ccb85373cc6092584c7bfa3afee9b6754a31fe81292b18707408/VisualStudio.17.Release.chman' using engine 'WebClient'
+[3ffc:001c][2024-11-29T20:52:47] Download of 'https://download.visualstudio.microsoft.com/download/pr/8497e528-d106-4143-95eb-3deb1b2f4851/b157f730d01b2d5243e1ae083d4471ee6df8885beacb8d9e75f6771bc275ca48/VisualStudio.16.Release.chman' succeeded using engine 'WebClient'
+[3ffc:001c][2024-11-29T20:52:47] Channel 'https://aka.ms/vs/16/release/channel' was not modified. IfModifiedSince: 2024-10-25 오후 11:13:18 +00:00, LastModifiedDate: 2024-10-26 오전 8:13:18 +09:00
+[3ffc:001c][2024-11-29T20:52:47] Channel manifest for https://aka.ms/vs/16/release/channel is already up to date.
+[3ffc:001d][2024-11-29T20:52:47] Download of 'https://download.visualstudio.microsoft.com/download/pr/655265af-cd2f-4919-97b2-3198ac560526/30f9cbe43604ccb85373cc6092584c7bfa3afee9b6754a31fe81292b18707408/VisualStudio.17.Release.chman' succeeded using engine 'WebClient'
+[3ffc:001d][2024-11-29T20:52:47] Channel 'https://aka.ms/vs/17/release/channel' was not modified. IfModifiedSince: 2024-11-22 오전 1:41:51 +00:00, LastModifiedDate: 2024-11-22 오전 10:41:51 +09:00
+[3ffc:001d][2024-11-29T20:52:47] Channel manifest for https://aka.ms/vs/17/release/channel is already up to date.
+[3ffc:0001][2024-11-29T20:52:50] The cache manifest and downloaded manifest had the same version for instance: a6c432cd. Did not compute update information.
+[3ffc:0001][2024-11-29T20:52:50] No restart manager available. Assuming no reboot required for instance state.
+[3ffc:0001][2024-11-29T20:52:54] The cache manifest and downloaded manifest had the same version for instance: c09c5e27. Did not compute update information.
+[3ffc:0001][2024-11-29T20:52:54] No restart manager available. Assuming no reboot required for instance state.
+[3ffc:0001][2024-11-29T20:52:54] END: Check for updates
+[3ffc:0001][2024-11-29T20:52:54] BEGIN: Launch child and wait
+[3ffc:0008][2024-11-29T20:52:54] Authenticode verification returned 0x00000000 for path: C:\Users\hi020\AppData\Local\Temp\VS\Setup\3b65be0a-98e9-4c4d-82b0-4d609c7ec059\vs_setup_bootstrapper.exe.
+[3ffc:0008][2024-11-29T20:52:57] Package signature verification returned Success for path: C:\Users\hi020\AppData\Local\Temp\VS\Setup\3b65be0a-98e9-4c4d-82b0-4d609c7ec059\vs_installer.opc
+[3ffc:0003][2024-11-29T20:52:57] Newer bootstrapper cached: C:\Users\hi020\AppData\Local\Temp\VS\Setup\3b65be0a-98e9-4c4d-82b0-4d609c7ec059\vs_setup_bootstrapper.exe, version: 3.12.2149.286001173
+[3ffc:0001][2024-11-29T20:52:59] Package signature verification returned Success for path: C:\Users\hi020\AppData\Local\Temp\VS\Setup\3b65be0a-98e9-4c4d-82b0-4d609c7ec059\vs_installer.opc
+[3ffc:0001][2024-11-29T20:53:01] Package signature verification returned Success for path: C:\Users\hi020\AppData\Local\Temp\VS\Setup\3b65be0a-98e9-4c4d-82b0-4d609c7ec059\vs_installer.opc
+[3ffc:0001][2024-11-29T20:53:01] Extracting 'C:\Users\hi020\AppData\Local\Temp\VS\Setup\3b65be0a-98e9-4c4d-82b0-4d609c7ec059\vs_installer.opc' to 'C:\Users\hi020\AppData\Local\Temp\uh3gboa0.2uw'.
+[3ffc:000a][2024-11-29T20:53:01] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:0006][2024-11-29T20:53:02] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:000b][2024-11-29T20:53:02] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:0007][2024-11-29T20:53:03] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:0009][2024-11-29T20:53:03] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:0004][2024-11-29T20:53:04] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:000a][2024-11-29T20:53:04] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:0006][2024-11-29T20:53:05] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:000b][2024-11-29T20:53:05] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:0007][2024-11-29T20:53:06] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:0003][2024-11-29T20:53:06] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:0001][2024-11-29T20:53:06] Successfully extracted 'C:\Users\hi020\AppData\Local\Temp\uh3gboa0.2uw'.
+[3ffc:0004][2024-11-29T20:53:07] Warning: Received progress when there is no current instance. Skipping updating user profile state.
+[3ffc:0001][2024-11-29T20:53:07] Child process started: C:\Users\hi020\AppData\Local\Temp\uh3gboa0.2uw\resources\app\ServiceHub\Services\Microsoft.VisualStudio.Setup.Service\BackgroundDownload.exe
+[3ffc:0001][2024-11-29T20:53:07] Waiting for setup process to complete...

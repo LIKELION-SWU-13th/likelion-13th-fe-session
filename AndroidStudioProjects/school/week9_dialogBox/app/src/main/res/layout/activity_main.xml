@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="대화상자" />
+
+    <ImageView
+        android:id="@+id/ImgSchool"
+        android:layout_weight="1"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:visibility="invisible" />
+
+
+
+</LinearLayout>
