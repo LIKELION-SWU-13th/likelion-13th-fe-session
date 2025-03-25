@@ -1,0 +1,87 @@
+     * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center; /* 가로 수평 방향 정렬 */
+            align-items: center; /* 수직 방향 정렬 (화면 정중앙 위치) */
+            min-height: 100vh; /* 100vh 뷰포트 높이 */
+        }
+        
+        .container {
+            display: flex;
+            width: none;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .profile {
+            background: #2a3d3d;
+            color: #fff;
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            background-color: #fff;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .profile h1 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        .profile p {
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+
+        .profile a {
+            color: #61dafb;
+            text-decoration: none;
+        }
+
+        .content {
+            width: 100%;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #2d3e50;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 20px;
+            padding-left: 20px; /* 불릿과 내용 간 여백 조정 */
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+      
+            height : 2px;
+            background-color : black;
+            border : 0;
+      
+          }
+  
