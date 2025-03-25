@@ -1,0 +1,36 @@
+
+.container {
+    display: flex;
+    width: 80%;
+   /* max-width: 900px;*/
+    margin: 50px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+a{color: #f1c40f;}
+
+.profile {
+    width: 30%;
+    background-color: #2f5477;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profileimage{
+    width: 120x; height: 120px;  border-radius: 100%;
+}
+.ifm {text-align:left;}
+
+.tmi {
+    width: 70%;
+    padding: 20px;
+}
+
+.section {
+    #title{color:#2f5477;}
+    ul{color:#686868;
+        list-style-type: none;
+    padding: 0;}
+    margin-bottom: 20px;
+}
