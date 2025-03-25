@@ -1,3 +1,7 @@
+* { 
+    box-sizing: border-box; 
+}
+
 body{
     display: flex;
     margin: 0;
@@ -41,6 +45,7 @@ hr{
 
 .contents{
     flex: 3;
-    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 100%;
 }
