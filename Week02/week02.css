@@ -6,9 +6,8 @@
     margin: 50px auto;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    a{color: #f1c40f;}
 }
-
+a{color: #f1c40f;}
 
 .profile {
     width: 30%;
@@ -16,6 +15,10 @@
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+.profileimage{
+    width: 120x; height: 120px;  border-radius: 100%;
 }
 .ifm {text-align:left;}
 
