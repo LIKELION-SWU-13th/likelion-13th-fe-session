@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+/*왼쪽 컨테이너 박스 css*/
+.left-container{
+    background-color: #1a55f7;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+}
+
+/*왼쪽 컨테이너 박스 안의 프로필 이미지 css*/
+.left-container img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+/*"정규은" 텍스트 css*/
+#name{
+    padding: 30px;
+    color: white;
+}
+
+/*링크 css*/
+a{
+    color: white;
+}
+
+/*오른쪽 컨테이너 박스 css*/
+.right-container{
+    padding: 20px;
+}
+
+/*LIKELION Company와 서울여대 폰트 css*/
+h3{
+    color: navy;
+}
+
+/*구분선 css*/
+hr{
+    margin-top: -10px;
+    border-top: 1.5px solid rgb(0, 0, 0);
+}
+
+/*Experience-list css*/
+.Experience-list{
+    list-style-type: disc;
+}
+
+/*Skills-list css*/
+.Skills-list{
+    list-style-type: square;
+}
+.Skills-list li {
+    margin-bottom: 5px;
+}
