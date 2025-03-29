@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
+
     const addTodo = () => {
         if (!inputTodo.value) {
             alert('내용을 입력하세요.');
@@ -47,14 +48,39 @@ document.addEventListener('DOMContentLoaded', () => {
                 text.style.fontSize ='14px';
                 text.textContent = result;
 
+                const editButton = document.createElement('button');
+                editButton.textContent = "🖍";
+                editButton.classList.add('edit-btn');
+                
                 const deleteButton = document.createElement('button');
-                deleteButton.textContent = "삭제";
+                deleteButton.textContent = "✖";
                 deleteButton.classList.add('delete-btn');
 
                 item.appendChild(text);
+                item.appendChild(editButton);
                 item.appendChild(deleteButton);
                 todoList.appendChild(item);
 
+                editButton.addEventListener('click', (event) => {
+                    const editItem = event.currentTarget.parentNode;
+                    const textSpan = editItem.querySelector('span');
+                
+                    const input = document.createElement('input');
+                    input.type = 'text';
+                    input.value = textSpan.textContent;
+                
+                    editItem.replaceChild(input, textSpan);
+                    input.focus();
+                    editButton.textContent = "✔";
+
+                    editButton.addEventListener('click', () => {
+                        textSpan.textContent = input.value;
+                        editItem.replaceChild(textSpan, input);
+                        saveTodo();
+                        editButton.textContent = "🖍";
+                    });
+                });                
+                
                 deleteButton.addEventListener('click', deleteTodo);
                 text.addEventListener('click', toggleLineThrough);
 
@@ -62,6 +88,8 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     }
+    
+
 
     const deleteTodo = (event) => {
         todoList.removeChild(event.currentTarget.parentNode);
