@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>할 일 목록(To-Do List) 만들기</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <h1>🧐 할 일 목록 </h1>
+                <form>
+                    <label for="todoInput"></label>
+                    <input type="text" id="todoInput" placeholder="할 일을 입력하세요.">
+                    <input type="button" id="submit" value="추가">
+                </form>
+                <div class="listBox">
+                    <ul id="todoList"></ul> 
+                </div>
+            </div>
+        </div>
+
+    <div id="modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
