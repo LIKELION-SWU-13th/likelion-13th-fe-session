@@ -1,0 +1,95 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #f7d28d;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#add-btn {
+    padding: 10px 15px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.todo-item span {
+    flex: 1;
+    margin-left: 10px;
+}
+/*체크버튼 누르면 회색 취소 선 표시*/
+
+.todo-item.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+.check-btn {
+    background: none;
+    border: 2px solid orange;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    color: orange;
+    cursor: pointer;
+}
+
+.todo-item.completed .check-btn {
+    background-color: orange;
+    color: white;
+}
+
+.delete-btn {
+    background: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 15px;
+    color: #444;
+    text-align: center;
+}
