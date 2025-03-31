@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F0F0F5;
+}
+
+/*할 일 목록의 컨테이너 css*/
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/*입력창 css*/
+input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #CDCDCD;
+    border-radius: 5px;
+}
+
+/*버튼 css*/
+button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    border: none; /*테두리 없애기*/
+    border-radius: 5px;
+    cursor: pointer; /*마우스 커서 보이게 포인트로 변경*/
+}
+
+/*'추가' 버튼 css*/
+.add-btn {
+    background-color: green;
+    color: white;
+}
+
+/*'삭제' 버튼 css*/
+.delete-btn {
+    background-color: red;
+    color: white;
+}
+
+/*'수정' 버튼 css*/
+.edit-btn {
+    background-color: orange;
+    color: white;
+}
+
+/*할 일 목록 css*/
+ul {
+    list-style: none; /*기본 목록 css 없애기*/
+    padding: 0;
+}
+
+/*할 일 항목 css*/
+li {
+    background: #F5F5F5;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between; /*양끝으로 항목 배치*/
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*할 일 목록 항목 css*/
+.task-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+/*목록에 있는 텍스트 누를 때 css*/
+.completed {
+    text-decoration: line-through; /*텍스트에 취소선*/
+    color: gray;
+}
