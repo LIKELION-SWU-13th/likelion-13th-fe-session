@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="todo.css" />
+  <title>Todo-list</title>
+</head>
+<body>
+  <div class="todo-container">
+    <h2>📑할 일 목록</h2>
+    <input type="text" id="todo-input" placeholder="할 일을 입력하세요" />
+    <button class="add-btn" id="add-btn">추가</button>
+    <ul id="todo-list"></ul>
+  </div>
+
+  <script>
+    const input = document.getElementById("todo-input");
+    const addBtn = document.getElementById("add-btn");
+    const todoList = document.getElementById("todo-list");
+
+    //할 일 항목 생성 함수
+    const createTodoItem = (text) => {
+      const li = document.createElement("li");
+
+      // 텍스트 노드
+      li.textContent = text;
+
+      //완료 표시 toggle
+      li.addEventListener("click", () => {
+        li.classList.toggle("completed");
+      });
+
+      //삭제 버튼 생성
+      const deleteBtn = document.createElement("button");
+      deleteBtn.textContent = "삭제";
+      deleteBtn.className = "delete-btn";
+      deleteBtn.addEventListener("click", (e) => {
+        e.stopPropagation(); // 텍스트 클릭과 충돌 방지
+        li.remove(); // DOM 조작: 삭제
+      });
+
+      li.appendChild(deleteBtn);
+      todoList.appendChild(li);
+    };
+
+    //비동기 처리 포함: 0.3초 후 항목 추가
+    addBtn.addEventListener("click", () => {
+      const text = input.value.trim();
+      if (text) {
+        setTimeout(() => {
+          createTodoItem(text);
+        }, 300);
+        input.value = "";
+      }
+    });
+  </script>
+</body>
+</html>
