@@ -46,8 +46,10 @@
       del.textContent = "삭제";
       del.className = "del";
       del.onclick = () => {
-        item.remove();
-        show_msg("삭제되었습니다!");
+        setTimeout(() => {
+          item.remove();
+          show_msg("삭제되었습니다!");
+        }, 1000);
       };
 
       item.appendChild(span);
@@ -60,7 +62,9 @@
       if (val === "") return;
       make_item(val);
       input.value = "";
-      show_msg("추가되었습니다!");
+      setTimeout(() => {
+        show_msg("할 일 추가 완료!");
+      }, 2000);
     }
 
     add.onclick = () => {
