@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*뷰포트 높이에 맞춤*/
+}
+
+.todo-container{
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#addBtn{
+    background-color: #30b630; 
+    color: white; 
+    border-radius: 4px; 
+    border: none;
+    width: 50px;
+    height: 30px;
+}
+
+#addBtn:hover {
+    background-color: #248824; /* 마우스 오버 시 색상 변경 */
+}
+
+#todoInput{
+    width: 280px;
+    height: 30px;
+    box-sizing: border-box; /*패딩과 보더값을 합해서 크기 설정*/
+    border-radius: 4px; 
+    border-width: 1px;
+    padding-left: 10px;
+}
+
+.list-container{
+    display: flex;
+    justify-content: center;
+} 
+
+#todoList{
+    list-style-type: none;
+    width: 340px;
+    border-radius: 4px;
+    padding: 0px;
+}
+
+#todoList li{
+    display: flex;
+    justify-content: space-between; /* 텍스트와 버튼을 양쪽 끝에 배치 */
+    background-color: #f5f5f5;
+    font-size: 14px;
+    align-items: center;
+    padding: 8px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+#todoList button{
+    background-color: #f35641; 
+    color: white; 
+    border-radius: 4px; 
+    border: none;
+    width: 50px;
+    height: 30px;
+}
+
+#todoList button:hover {
+    background-color: #c95242; /* 마우스 오버 시 색상 변경 */
+}
+
+
+
