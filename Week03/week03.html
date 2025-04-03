@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>할 일 목록</title>
+  <link rel="stylesheet" href="week03.css">
+</head>
+<body>
+  <div class="box">
+    <div class="title">
+      📄 <strong>할 일 목록</strong>
+    </div>
+    <div class="input-wrap">
+      <input id="input" type="text" placeholder="할 일을 입력하세요">
+      <button id="add">추가</button>
+    </div>
+    <div id="msg"></div>
+    <div class="list" id="list"></div>
+  </div>
+
+  <script>
+    const input = document.getElementById("input");
+    const add = document.getElementById("add");
+    const list = document.getElementById("list");
+    const msg = document.getElementById("msg");
+
+    function show_msg(text) {
+      msg.textContent = text;
+      setTimeout(() => {
+        msg.textContent = "";
+      }, 1500);
+    }
+
+    function make_item(text) {
+      const item = document.createElement("div");
+      item.className = "item";
+
+      const span = document.createElement("span");
+      span.textContent = text;
+      span.onclick = () => {
+        span.classList.toggle("done");
+      };
+
+      const del = document.createElement("button");
+      del.textContent = "삭제";
+      del.className = "del";
+      del.onclick = () => {
+        setTimeout(() => {
+          item.remove();
+          show_msg("삭제되었습니다!");
+        }, 1000);
+      };
+
+      item.appendChild(span);
+      item.appendChild(del);
+      list.appendChild(item);
+    }
+
+    function add_item() {
+      const val = input.value.trim();
+      if (val === "") return;
+      make_item(val);
+      input.value = "";
+      setTimeout(() => {
+        show_msg("할 일 추가 완료!");
+      }, 2000);
+    }
+
+    add.onclick = () => {
+      add_item();
+    };
+  </script>
+</body>
+</html>
