@@ -31,18 +31,7 @@ function App() {
       <h2 style={{ textAlign: "center", color: "#3891ff" }}>
         🗓️나의 하루 루틴
       </h2>
-      <div
-        style={{
-          padding: "25px",
-          fontFamily: "Pretendrad, sans-serif",
-          backgroundColor: "#f7f9fc",
-          borderRadius: "12px",
-          maxWidth: "700px",
-          margin: "10px auto",
-          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-          textAlign: "left",
-        }}
-      >
+      <div>
         {routine.map((item) => (
           <div
             key={item.id}
