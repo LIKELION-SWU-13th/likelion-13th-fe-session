@@ -1,6 +1,7 @@
 import React from "react";
 
 function App() {
+  /*루틴이 담긴 객체 배열 생성*/
   const routine = [
     {
       id: 1,
@@ -26,12 +27,14 @@ function App() {
   const cheering = () => {
     alert("오늘 하루도 파이팅!! ");
   };
+
   return (
     <div>
       <h2 style={{ textAlign: "center", color: "#3891ff" }}>
         🗓️나의 하루 루틴
       </h2>
       <div>
+        {/* 리스트 렌더링 */}
         {routine.map((item) => (
           <div
             key={item.id}
@@ -50,9 +53,11 @@ function App() {
             <h4>{item.task}</h4>
             <p>{item.description}</p>
             {item.id == 2 && <p>⭐점심은 꼭 챙겨먹어요!</p>}
+            {/* 조건부 렌더링 */}
           </div>
         ))}
 
+        {/* 응원하기 버튼 */}
         <button
           onClick={cheering}
           style={{
