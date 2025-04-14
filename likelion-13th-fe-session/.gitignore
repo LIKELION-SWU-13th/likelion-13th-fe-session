@@ -97,3 +97,4 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode,react.DS_Store
 .DS_Store
+.DS_Store
