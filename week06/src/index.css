@@ -1,0 +1,35 @@
+.mood-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 3px 7px;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+  font-size: 13pt;
+}
+
+.mood-button.selected {
+  background-color: #868686;
+  border-color: black;
+}
+
+
+.button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 7px 13px;
+  margin: 7px 5px 0 0;
+  cursor: pointer;
+  font-size: 10pt;
+}
+
+.link-item {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.link-item:hover {
+  font-weight: bold;
+}
