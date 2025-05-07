@@ -1,0 +1,99 @@
+/* 전체 스타일 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 메인 레이아웃 */
+.container {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+}
+
+/* 프로필 섹션 */
+.profile {
+    background-color: #2C2F49; /* 더 부드러운 네이비 */
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #55587A;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.job-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #B3B6D1;
+    margin-bottom: 15px;
+}
+
+/* 버튼 스타일 */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color: #FF6B6B;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FF4A4A;
+}
+
+/* 콘텐츠 섹션 */
+.content {
+    width: 65%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.content-container {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2C2F49;
+}
+h3 {
+    color: rgb(96, 96, 117);
+}
+
+ul {
+padding-top: 10px;
+padding-left: 20px;
+}
