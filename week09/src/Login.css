@@ -1,0 +1,153 @@
+.loginPage {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/background.jpg");
+}
+.logo {
+  background-image: url("./assets/logo.png");
+  width: 200px;
+  height: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 150px;
+}
+.container {
+  display: flex;
+  width: 450px;
+  height: 709px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  padding: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+  padding: 5px;
+}
+
+.form {
+  box-sizing: border-box;
+  margin: 8px;
+  width: 322px;
+  height: 56px;
+  background: none;
+  border: 1px solid rgb(119, 119, 119);
+  border-radius: 4px;
+  padding: 10px;
+  padding-left: 15px;
+  color: white;
+  cursor: text;
+  font-weight: noraml;
+  font-size: 16px;
+}
+.form::placeholder {
+  color: #c4c4c4;
+}
+.error {
+  color: #e50914;
+  font-size: 15px;
+  font-weight: 350;
+  margin-left: 8px;
+}
+.loginBtn {
+  width: 322px;
+  height: 40px;
+  box-sizing: border-box;
+  margin: 8px;
+  border-radius: 4px;
+  background-color: #e50914;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.loginBtn:hover {
+  background-color: #d10913;
+}
+.codeBtn {
+  width: 322px;
+  height: 40px;
+  box-sizing: border-box;
+  margin: 8px;
+  border-radius: 4px;
+  background-color: #505050bf;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.codeBtn:hover {
+  background-color: #484848bd;
+}
+.forgot {
+  margin: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.forgot:hover {
+  color: rgb(216, 216, 216);
+}
+.checkboxWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + label {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.586);
+}
+input[type="checkbox"]:checked + label {
+  background-color: rgb(158, 158, 158);
+}
+input[type="checkbox"]:checked + label::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 4px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.signUp {
+  color: #cecece;
+  font-weight: 400;
+  margin-top: 15px;
+}
+span {
+  color: white;
+  font-weight: 500;
+}
+.checkRobot {
+  color: #909090;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.learnMore {
+  color: rgb(68, 142, 244);
+  text-decoration: underline;
+  font-size: 13px;
+  margin-top: 10px;
+}
