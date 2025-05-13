@@ -1,3 +1,4 @@
+//오늘의 기분 일기 작성
 import React, { useState, useContext } from 'react'; 
 // useState : 새 일기 쓸 수 있게
 // useContext : 일기 저장을 위해
@@ -39,7 +40,8 @@ const Home = () => {
   );
 
   //버튼으로 기분 선택
-  //
+  //텍스트에 오늘 일기 작성
+  //기록하기 버튼 누르면 저장하고 이동
 };
 
 export default Home;

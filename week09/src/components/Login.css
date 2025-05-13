@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: url('../assets/nb.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+}
+
+
+/* 전체 화면 배경 */
+.login-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('../assets/background.jpg') center center / cover no-repeat;
+}
+
+/* 왼쪽 상단 로고 */
+.login-logo {
+  position: absolute;
+  height: auto;
+  top: 20px;
+  left: 20px;
+  width: 140px;
+  z-index: 2; /*겹쳤을 때 위에 보일지 아래에 보일지. 클수록 더 위에 보임*/
+}
+
+/* 폼 중앙 정렬 */
+.login-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* 로그인 박스 */
+.login-form {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 60px 68px 40px;
+  max-width: 400px;
+  width: 100%;
+  color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-form h1 {
+  font-size: 2rem;
+  margin-bottom: 28px;
+}
+
+.login-form input {
+  width: 91%;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e50914;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.login-button:hover {
+  background-color:#b20710;
+}
+
+.code-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #666;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: background-color 0.2 ease;
+}
+
+.code-button:hover {
+  background-color: rgba(109, 109, 110, 1);
+}
+
+.forgot {
+  display: block;
+  margin-bottom: 12px;
+  color: #b3b3b3;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: felx-start;
+  color: white;
+  margin-bottom: 16px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.remember input {
+  margin-right: 6px;
+}
+
+.signup {
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.signup a {
+  color: white;
+  text-decoration: underline;
+}
+
+.recaptcha {
+  font-size: 0.8rem;
+  color: #8c8c8c;
+}
+
+.recaptcha a {
+  color: #0071eb;
+  text-decoration: underline;
+}
+
+.divider {
+  text-align: center;
+  margin: 16px 0;
+  color: #b3b3b3;
+}
