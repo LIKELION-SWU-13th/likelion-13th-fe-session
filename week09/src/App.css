@@ -1,0 +1,26 @@
+.App {
+  position: relative;
+  text-align: center;
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  padding: 25px;
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .App-header {
+    padding-left: 130px;
+  }
+}
+
