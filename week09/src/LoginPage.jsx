@@ -1,19 +1,24 @@
 import "./Login.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "./AuthContext";
 
 const Login = () => {
   const [id, setId] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
+  const { login } = useAuth();
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     if (id === "chaebin" && password === "0420") {
-      navigate("/Home");
+      login();
+      navigate("/Home", { replace: true });
     } else {
+      setId("");
+      setPassword("");
       setError("아이디 또는 비밀번호가 올바르지 않습니다.");
     }
   };
