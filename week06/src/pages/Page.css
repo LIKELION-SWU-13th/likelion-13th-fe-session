@@ -1,0 +1,91 @@
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mood-buttons button {
+    font-size: 24px;
+    margin-right: 10px;
+    padding: 10px;
+    background: #eee;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .mood-buttons .active {
+    background: #ffda6c;
+  }
+  
+  .diary-textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+    font-size: 16px;
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #5e9eff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .card {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: #f9f9f9;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    background: #e9f2ff;
+  }
+  
+  .floating-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #5e9eff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .add-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    color: #555;
+    background-color: #f0f4ff;
+    transition: background 0.3s ease;
+  }
+  
+  .add-card:hover {
+    background-color: #dce9ff;
+  }
+  
