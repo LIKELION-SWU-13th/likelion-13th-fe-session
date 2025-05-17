@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js"></script><style>* {   /*배경 화면에 꽉 채우기 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.login-container {  /*로그인 박스 위치*/
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -40px;
+  }
+  .login-container::before {  /*어두워 보이는 배경 필터*/
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vh;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .netflix-logo {
+    position: fixed;
+    top: 1%;
+    left: 3%;
+    width: 90px;
+    height: 50px;
+  }
+  @media (max-width: 768px) {
+    .netflix-logo {
+      width: 90px; 
+      top: 15px;
+      left: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .netflix-logo {
+      width: 60px;
+      top: 10px;
+      left: 10px;
+    }
+  }
+  .login-box {
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    width: 450px;
+    height: 709px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    align-items: center;
+  }
+  
+  .login-input {
+    padding: 12px;
+    margin: 8px 0;
+    width: 322px;
+    height: 56px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .login-button {
+    background: #e50914;
+    width: 322px;
+    height: 40px;
+    border: none;
+    padding: 12px;
+    margin: 12px 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    align-items: center;
+  }
+
+ .login-text {
+  align-self: center; /*부모 컨테이너 안에서 중앙 배치*/
+  text-align: left; /*부모 컨테이너 안에서 왼쪽으로 이동 배치될 수 있게 조작*/
+  width: 322px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+ }
+  .divider {
+    text-align: center;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #ffffffB3;       
+    margin-top: 2px;
+  }
+  
+  .code-login {
+    width: 322px;
+    height: 40px;
+    background: #303030;
+    border-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .forgot {
+    font-size: 13px;
+    color: #bbb;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+  .save-info {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 18px;
+  }
+  
+  .save-info input {
+    margin-right: 8px;
+  }
+
+  .captcha-info {
+    font-size:  13px;
+    color: #bbb;
+    margin-top: 15px;
+    line-height: 1.6;
+    word-break: keep-all;
+  }
+
+  .learn-more {
+    font-size: 13px;
+    color: #3498db;
+    text-decoration: underline;
+    margin-top: 5px;
+    display: inline-block;
+  }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9wYWdlcy9Mb2dpblBhZ2UuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE1BQU0sZ0JBQWdCO0lBQ2xCLFNBQVM7SUFDVCxVQUFVO0lBQ1Ysc0JBQXNCO0VBQ3hCOztBQUVGLG9CQUFvQixZQUFZO0lBQzVCLFdBQVc7SUFDWCxhQUFhO0lBQ2Isa0JBQWtCO0lBQ2xCLGFBQWE7SUFDYix1QkFBdUI7SUFDdkIsbUJBQW1CO0lBQ25CLGtCQUFrQjtJQUNsQixpQkFBaUI7RUFDbkI7RUFDQSw0QkFBNEIsZ0JBQWdCO0lBQzFDLFdBQVc7SUFDWCxrQkFBa0I7SUFDbEIsTUFBTSxFQUFFLE9BQU87SUFDZixZQUFZO0lBQ1osYUFBYTtJQUNiLDhCQUE4QjtFQUNoQzs7RUFFQTtJQUNFLGVBQWU7SUFDZixPQUFPO0lBQ1AsUUFBUTtJQUNSLFdBQVc7SUFDWCxZQUFZO0VBQ2Q7RUFDQTtJQUNFO01BQ0UsV0FBVztNQUNYLFNBQVM7TUFDVCxVQUFVO0lBQ1o7RUFDRjs7RUFFQTtJQUNFO01BQ0UsV0FBVztNQUNYLFNBQVM7TUFDVCxVQUFVO0lBQ1o7RUFDRjtFQUNBO0lBQ0Usa0JBQWtCO0lBQ2xCLDhCQUE4QjtJQUM5QixhQUFhO0lBQ2IsWUFBWTtJQUNaLGFBQWE7SUFDYixZQUFZO0lBQ1osYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixrQkFBa0I7SUFDbEIsbUJBQW1CO0VBQ3JCOztFQUVBO0lBQ0UsYUFBYTtJQUNiLGFBQWE7SUFDYixZQUFZO0lBQ1osWUFBWTtJQUNaLDhCQUE4QjtJQUM5Qix5QkFBeUI7SUFDekIsa0JBQWtCO0lBQ2xCLFlBQVk7RUFDZDs7RUFFQTtJQUNFLG1CQUFtQjtJQUNuQixZQUFZO0lBQ1osWUFBWTtJQUNaLFlBQVk7SUFDWixhQUFhO0lBQ2IsY0FBYztJQUNkLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsZUFBZTtJQUNmLGtCQUFrQjtJQUNsQixtQkFBbUI7RUFDckI7O0NBRUQ7RUFDQyxrQkFBa0IsRUFBRSxvQkFBb0I7RUFDeEMsZ0JBQWdCLEVBQUUsa0NBQWtDO0VBQ3BELFlBQVk7RUFDWixtQkFBbUI7RUFDbkIsZUFBZTtFQUNmLGlCQUFpQjtFQUNqQixjQUFjO0NBQ2Y7RUFDQztJQUNFLGtCQUFrQjtJQUNsQixnQkFBZ0I7SUFDaEIsY0FBYztJQUNkLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsZUFBZTtFQUNqQjs7RUFFQTtJQUNFLFlBQVk7SUFDWixZQUFZO0lBQ1osbUJBQW1CO0lBQ25CLDhCQUE4QjtJQUM5QixZQUFZO0lBQ1osYUFBYTtJQUNiLFlBQVk7SUFDWixtQkFBbUI7SUFDbkIsa0JBQWtCO0lBQ2xCLGVBQWU7RUFDakI7O0VBRUE7SUFDRSxlQUFlO0lBQ2YsV0FBVztJQUNYLGVBQWU7SUFDZixtQkFBbUI7RUFDckI7O0VBRUE7SUFDRSxhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLGVBQWU7SUFDZixjQUFjO0lBQ2QsbUJBQW1CO0VBQ3JCOztFQUVBO0lBQ0UsaUJBQWlCO0VBQ25COztFQUVBO0lBQ0UsZ0JBQWdCO0lBQ2hCLFdBQVc7SUFDWCxnQkFBZ0I7SUFDaEIsZ0JBQWdCO0lBQ2hCLG9CQUFvQjtFQUN0Qjs7RUFFQTtJQUNFLGVBQWU7SUFDZixjQUFjO0lBQ2QsMEJBQTBCO0lBQzFCLGVBQWU7SUFDZixxQkFBcUI7RUFDdkIiLCJzb3VyY2VzQ29udGVudCI6WyIqIHsgICAvKuuwsOqyvSDtmZTrqbTsl5Ag6r2JIOyxhOyasOq4sCAqL1xuICAgIG1hcmdpbjogMDtcbiAgICBwYWRkaW5nOiAwO1xuICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gIH1cblxuLmxvZ2luLWNvbnRhaW5lciB7ICAvKuuhnOq3uOyduCDrsJXsiqQg7JyE7LmYKi9cbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDEwMHZoO1xuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIG1hcmdpbi10b3A6IC00MHB4O1xuICB9XG4gIC5sb2dpbi1jb250YWluZXI6OmJlZm9yZSB7ICAvKuyWtOuRkOybjCDrs7TsnbTripQg67Cw6rK9IO2VhO2EsCovXG4gICAgY29udGVudDogXCJcIjtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgdG9wOiAwOyBsZWZ0OiAwO1xuICAgIHdpZHRoOiAxMDB2aDtcbiAgICBoZWlnaHQ6IDEwMHZoO1xuICAgIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC42KTtcbiAgfVxuXG4gIC5uZXRmbGl4LWxvZ28ge1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDElO1xuICAgIGxlZnQ6IDMlO1xuICAgIHdpZHRoOiA5MHB4O1xuICAgIGhlaWdodDogNTBweDtcbiAgfVxuICBAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHtcbiAgICAubmV0ZmxpeC1sb2dvIHtcbiAgICAgIHdpZHRoOiA5MHB4OyBcbiAgICAgIHRvcDogMTVweDtcbiAgICAgIGxlZnQ6IDE1cHg7XG4gICAgfVxuICB9XG4gIFxuICBAbWVkaWEgKG1heC13aWR0aDogNDgwcHgpIHtcbiAgICAubmV0ZmxpeC1sb2dvIHtcbiAgICAgIHdpZHRoOiA2MHB4O1xuICAgICAgdG9wOiAxMHB4O1xuICAgICAgbGVmdDogMTBweDtcbiAgICB9XG4gIH1cbiAgLmxvZ2luLWJveCB7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC43KTtcbiAgICBwYWRkaW5nOiA1MHB4O1xuICAgIHdpZHRoOiA0NTBweDtcbiAgICBoZWlnaHQ6IDcwOXB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIH1cbiAgXG4gIC5sb2dpbi1pbnB1dCB7XG4gICAgcGFkZGluZzogMTJweDtcbiAgICBtYXJnaW46IDhweCAwO1xuICAgIHdpZHRoOiAzMjJweDtcbiAgICBoZWlnaHQ6IDU2cHg7XG4gICAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjcpO1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICNmZmZmZmY7XG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgfVxuICBcbiAgLmxvZ2luLWJ1dHRvbiB7XG4gICAgYmFja2dyb3VuZDogI2U1MDkxNDtcbiAgICB3aWR0aDogMzIycHg7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIGJvcmRlcjogbm9uZTtcbiAgICBwYWRkaW5nOiAxMnB4O1xuICAgIG1hcmdpbjogMTJweCAwO1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIH1cblxuIC5sb2dpbi10ZXh0IHtcbiAgYWxpZ24tc2VsZjogY2VudGVyOyAvKuu2gOuqqCDsu6jthYzsnbTrhIgg7JWI7JeQ7IScIOykkeyVmSDrsLDsuZgqL1xuICB0ZXh0LWFsaWduOiBsZWZ0OyAvKuu2gOuqqCDsu6jthYzsnbTrhIgg7JWI7JeQ7IScIOyZvOyqveycvOuhnCDsnbTrj5kg67Cw7LmY65CgIOyImCDsnojqsowg7KGw7J6RKi9cbiAgd2lkdGg6IDMyMnB4O1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICBmb250LXNpemU6IDMwcHg7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBkaXNwbGF5OiBibG9jaztcbiB9XG4gIC5kaXZpZGVyIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICBtYXJnaW46IDEwcHggMDtcbiAgICBmb250LXNpemU6IDE2cHg7XG4gICAgY29sb3I6ICNmZmZmZmZCMzsgICAgICAgXG4gICAgbWFyZ2luLXRvcDogMnB4O1xuICB9XG4gIFxuICAuY29kZS1sb2dpbiB7XG4gICAgd2lkdGg6IDMyMnB4O1xuICAgIGhlaWdodDogNDBweDtcbiAgICBiYWNrZ3JvdW5kOiAjMzAzMDMwO1xuICAgIGJvcmRlci1jb2xvcjogcmdiYSgwLCAwLCAwLCAwKTtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgcGFkZGluZzogMTBweDtcbiAgICBib3JkZXI6IG5vbmU7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbiAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICB9XG4gIFxuICAuZm9yZ290IHtcbiAgICBmb250LXNpemU6IDEzcHg7XG4gICAgY29sb3I6ICNiYmI7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIG1hcmdpbi1ib3R0b206IDUwcHg7XG4gIH1cbiAgXG4gIC5zYXZlLWluZm8ge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBmb250LXNpemU6IDE2cHg7XG4gICAgY29sb3I6ICNmZmZmZmY7XG4gICAgbWFyZ2luLWJvdHRvbTogMThweDtcbiAgfVxuICBcbiAgLnNhdmUtaW5mbyBpbnB1dCB7XG4gICAgbWFyZ2luLXJpZ2h0OiA4cHg7XG4gIH1cblxuICAuY2FwdGNoYS1pbmZvIHtcbiAgICBmb250LXNpemU6ICAxM3B4O1xuICAgIGNvbG9yOiAjYmJiO1xuICAgIG1hcmdpbi10b3A6IDE1cHg7XG4gICAgbGluZS1oZWlnaHQ6IDEuNjtcbiAgICB3b3JkLWJyZWFrOiBrZWVwLWFsbDtcbiAgfVxuXG4gIC5sZWFybi1tb3JlIHtcbiAgICBmb250LXNpemU6IDEzcHg7XG4gICAgY29sb3I6ICMzNDk4ZGI7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XG4gICAgbWFyZ2luLXRvcDogNXB4O1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfSJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="login-container" style="background-image: url(&quot;/background.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: 200%; background-attachment: fixed; height: 100vh; width: 100vw; overflow: hidden;"><img alt="Netflix Logo" class="netflix-logo" src="./React App_files/Netflix_2015_logo.svg"><div class="login-box"><span class="login-text">로그인</span><input class="login-input" placeholder="이메일 주소 또는 휴대폰 번호" type="text"><input class="login-input" placeholder="비밀번호" type="password"><button class="login-button">로그인</button><div class="divider">또는</div><button class="code-login">로그인 코드 사용하기</button><p class="forgot">비밀번호를 잊으셨나요? </p><div class="save-info"><input type="checkbox"><span>로그인 정보 저장</span></div><p class="join">넷플릭스 회원이 아니신가요? <strong>지금 가입하세요.</strong></p><p class="captcha-info">이 페이지는 Google reCAPTCHA의 보호를 받아 사용자가<br>로봇이 아님을 확인합니다.</p><a class="learn-more" href="http://localhost:3000/#">자세히 알아보기.</a></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>

@@ -1,0 +1,235 @@
+* {   /*배경 화면에 꽉 채우기 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .login-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.login-container {  /*로그인 박스 위치*/
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  }
+  .login-container::before {  /*어두워 보이는 배경 필터*/
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .netflix-logo {
+    position: fixed;
+    top: 1%;
+    left: 3%;
+    width: 90px;
+    height: 50px;
+  }
+ @media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+  @media (max-width: 480px) {
+    .netflix-logo {
+      width: 60px;
+      top: 10px;
+      left: 10px;
+    }
+  }
+  .login-box {
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    width: 450px;
+    height: 709px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    align-items: center;
+  }
+  
+  .login-input {
+    padding: 12px;
+    margin: 8px 0;
+    width: 322px;
+    height: 56px;
+    background: rgba(39, 39, 39, 0.2);;
+    border: 1px solid #6a6a6a;
+    border-radius: 4px;
+    color: #ffffff;;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    background: #e50914;
+    width: 322px;
+    height: 40px;
+    border: none;
+    padding: 12px;
+    margin: 12px 0;
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+    font-size: 16px;
+  }
+
+ .login-text {
+    align-self: center; /*부모 컨테이너 안에서 중앙 배치*/
+    text-align: left; /*부모 컨테이너 안에서 왼쪽으로 이동 배치될 수 있게 조작*/
+    width: 322px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+ }
+  .divider {
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+    color: #ffffffB3;       
+    margin-top: 2px;
+  }
+  
+  .code-login {
+    width: 322px;
+    height: 40px;
+    border-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    background: rgba(81, 81, 81, 0.6);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .forgot {
+    font-size: 16spx;
+    color: #bbb;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    text-decoration: underline;
+  }
+  
+  .save-info {
+    display: flex;
+    font-size: 16px;
+    color: #c1c1c1;
+    margin-bottom: 18px;
+    align-self: center;
+    text-align: left; 
+    width: 322px;
+  }
+  
+ /* 체크박스 디자인 */
+.save-info input[type="checkbox"] {
+  appearance: none;            
+  width: 18px;               
+  height: 18px;
+  border: 0.5px solid #525252;      
+  border-radius: 2px;         
+  position: relative;
+  margin-right: 12px;        
+}
+
+/* 체크된 상태 디자인 */
+.save-info input[type="checkbox"]:checked {
+  background-color: #ffffff; 
+  border-color: #ffffff;
+  border-radius: 2px;  
+}
+
+/* 체크된 상태에서 내부 표시 (체크 표시) */
+.save-info input[type="checkbox"]:checked::before {
+  content: "✓";                /* 체크 표시 */
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-size: 14px;              /* 체크 표시 크기 */
+  color: #000000;                 /* 체크 표시 색상 */
+}
+
+  .join {
+    font-size: 16px;
+    color: #ffffffB3;
+    width: 322px;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: 300;
+  }
+
+  .captcha-info {
+    font-size:  13px;
+    color: #ffffff80;
+    margin-top: 15px;
+    line-height: 1.4;
+    text-align: left;
+    width: 322px;
+  }
+
+  .learn-more {
+    font-size: 13px;
+    color: #3498db;
+    text-decoration: underline;
+    margin-top: 5px;
+    text-align: left;
+    width: 322px;
+  }
+  .footer {
+    width: 100%;
+    background-color: #111;
+    color: #ffffffb3;
+    padding: 40px 32px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-contact {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #bbb;
+}
+
+.footer-links {
+  font-size: 15px;
+  list-style: none;
+  margin: 0 0 8px 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-links li a {
+  color: #bbb;
+  text-decoration: underlnoneine;
+  font-size: 14px;
+}
+
+.footer-language select {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #ffffffb3;
+  padding: 8px 12px;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.footer-copy {
+  color: #666;
+  font-size: 12px;
+}
