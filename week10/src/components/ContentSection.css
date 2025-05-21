@@ -1,0 +1,17 @@
+.content_section {
+  margin-bottom: 20px;
+}
+  
+.card_row {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 0px 24px;
+  scroll-snap-type: x mandatory;
+  box-sizing: border-box;
+}
+  
+.card_row::-webkit-scrollbar {
+  display: none;
+}
+  
