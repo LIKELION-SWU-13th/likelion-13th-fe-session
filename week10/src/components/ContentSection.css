@@ -1,0 +1,14 @@
+.content-section {
+    margin: 30px 20px;
+  }
+  
+  .content-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  
