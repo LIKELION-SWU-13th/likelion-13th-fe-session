@@ -6,7 +6,6 @@ import { useAuth } from "./components/AuthContext";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [submitted, setSubmitted] = useState(false);
 
   const navigate = useNavigate();
   const { login } = useAuth();
