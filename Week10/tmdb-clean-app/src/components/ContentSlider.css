@@ -1,0 +1,88 @@
+.slider-wrapper {
+  position: relative;
+}
+
+.slide {
+  padding: 10px;
+  display: flex !important;
+  justify-content: center;
+  position: relative;
+}
+
+.slide-img {
+  width: 94%;
+  height: 830px;
+  border-radius: 8px;
+}
+
+
+.slide-overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 130px;
+  z-index: 3;
+}
+
+.overlay-logo-wrapper {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+
+.overlay-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.arrow {
+  position: absolute;
+  top: 45%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.arrow img {
+  width: 75px;
+  height: 75px;
+}
+
+.next {
+  right: 9px;
+}
+
+.prev {
+  left: 20px;
+}
+
+/* 도트 유지 */
+/* .custom-dots-wrapper {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+} <- 왜 적용이 안될까????  */
+
+/* .custom-dot {
+  all: unset; 
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #888; 
+  color:white;
+  border-radius: 50%;
+  margin: 0 4px;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}<- 적용이 안돼서.. 그냥 없는 게 좋겠다 싶어서 일단 주석처리 */
+ 
+
+
+
+.slick-dots li.slick-active .custom-dot {
+  background: white;
+}
+
