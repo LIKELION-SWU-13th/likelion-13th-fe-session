@@ -1,0 +1,26 @@
+- 메인페이지 - Home
+
+
+- 개발 순서
+1. 메인페이지에 헤더 띄우기
+2. App에 라우터 연결하기
+3. 메인 배너-Carousel
+4. 섹션
+ 4.1 api연결
+ 4.2 슬라이드 Carousel
+    npm install react-slick slick-carousel
+5. api연동에서 - 로딩/에러 상태 처리
+6. 성능 최적화를 위한 React.memo적용
+
+-트러블 슈팅
+1. 기본 경로(/)접속시 자동으로 /home으로 이동하기(App.js)
+    -해결전: <Route path="/home" element={<Home />} />
+    -해결후: <Route path="/" element={<Navigate to="/home" replace />} />
+            <Route path="/home" element={<Home />} />
+2. 포스터 섹션에서 이미지 hover시 위에가 잘림
+   - 해결: overflow-y: visible; 설정
+   *하지만 왼쪽만 invisible할 방법은 없었음
+3. Carousel에서 시간상 화살표 커스텀을 하지못함
+   *화살표 css설정시 요소를 잘 가져와야 할 것 같음
+4. 성능 최적화를 위한 React.memo을 어디에 적용해야할지 감이 안잡힘
+- 상태 변화가 있는 곳을 기분으로 1)Header, 2)banner 3개 생성 3)메인배너 슬라이더

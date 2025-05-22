@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+.section-poster,
+.slick-slider,
+.slick-track {
+  overflow: visible !important;
+}
+.slick-list{
+  overflow-x: 
+}
+
+.banner-images {
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.main-banner{
+  position:relative;
+  overflow:visible;
+}
+.section-poster{
+  overflow: visible;
+  width:96%;
+  padding-left: 65px;
+  padding-right: 20px;
+}
+
+h5{
+  margin-left:7px;
+}
+
+.poster-images {
+  border-radius: 10px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: auto;
+  object-fit:cover;
+  display: block;
+}
+
+.poster-images:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.slick-slide {
+  padding: 0 10px;
+}
+
