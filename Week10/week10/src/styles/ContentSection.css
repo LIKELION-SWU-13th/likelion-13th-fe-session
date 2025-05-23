@@ -1,0 +1,30 @@
+.editor-recommend {
+  margin-top: 40px;
+  padding: 0 12px;
+}
+
+.editor-recommend h2 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+}
+
+.recommend-list {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.recommend-list::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .recommend-list {
+    gap: 8px;
+    padding-bottom: 4px;
+  }
+}

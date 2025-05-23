@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background-color: #111;
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
