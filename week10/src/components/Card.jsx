@@ -27,7 +27,7 @@ const Card = React.memo(function Card({ cardtitle }) {
   return (
     <div className="card">
       <div className="cardtitle">{cardtitle}</div>
-      <div>
+      <div className="container">
         <Slider className="slider" {...settings}>
           {movies.map((movie) => (
             <div key={movie.id}>
