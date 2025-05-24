@@ -1,10 +1,14 @@
 import React from 'react';
 import './MovieCard.css';
 
-function MovieCard() {
+const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
+
+function MovieCard({ posterPath }) {
+  const imageUrl = posterPath ? `${IMAGE_BASE_URL}${posterPath}` : '/images/sample-poster.jpg';
+
   return (
     <div className="movie-card">
-      <img src="/images/sample-poster.jpg" alt="poster" />
+      <img src={imageUrl} alt="poster" />
     </div>
   );
 }

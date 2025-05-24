@@ -6,11 +6,11 @@ function Home() {
   return (
     <div>
       <CarouselBanner />
-      <ContentSection title="믿고 보는 웨이브 에디터 추천작" />
-      <ContentSection title="실시간 인기 콘텐츠" />
-      <ContentSection title="지금 뜨는 예능" />
-      <ContentSection title="드라마 명작 다시보기" />
-      <ContentSection title="오직 Wavve에서" />
+      <ContentSection title="인기 영화" apiEndpoint="/movie/popular" />
+      <ContentSection title="최고 평점 영화" apiEndpoint="/movie/top_rated" />
+      <ContentSection title="지금 상영 중" apiEndpoint="/movie/now_playing" />
+      <ContentSection title="인기 TV 프로그램" apiEndpoint="/tv/popular" />
+      <ContentSection title="최고 평점 TV 프로그램" apiEndpoint="/tv/top_rated" />
     </div>
   );
 }
