@@ -14,7 +14,7 @@ const Contents = ({ title, items }) => {
       else if (width >= 1200) setSlidesToShow(7);
       else if (width >= 900) setSlidesToShow(6);
       else if (width >= 600) setSlidesToShow(5);
-      else setSlidesToShow();
+      else setSlidesToShow(4);
     };
 
     updateSlidesToShow();
