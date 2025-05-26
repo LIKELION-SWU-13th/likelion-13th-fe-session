@@ -28,6 +28,7 @@ const styles = {
           display: 'block'
                     } 
 } ;
+
 const routines = [
   {
     time: '08:00',
